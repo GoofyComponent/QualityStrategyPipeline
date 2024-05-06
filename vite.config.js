@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
+// https://vitejs.dev/config/ on https://GoofyComponent.github.io/QualityStrategyPipeline
 export default defineConfig({
+  base: "/QualityStrategyPipeline/",
   plugins: [react()],
-})
+});
