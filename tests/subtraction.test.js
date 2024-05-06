@@ -1,3 +1,6 @@
+// Dans votre fichier de test (par exemple subtraction.test.js)
+import { test, expect } from "@jest/globals"; // Importez la fonction `test` de Jest
+
 function subtraction(a, b) {
   return a - b;
 }
