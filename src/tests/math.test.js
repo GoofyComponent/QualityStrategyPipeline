@@ -10,4 +10,9 @@ describe("Tests for math functions", () => {
   test("soustraction 5 - 2 to equal 3", () => {
     expect(soustraction(5, 2)).toBe(3);
   });
+
+  test("addition 1 + 2 to not equal 4", () => {
+    expect(addition(1, 2)).not.toBe(4);
+  });
+
 });
